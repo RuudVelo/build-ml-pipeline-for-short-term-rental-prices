@@ -5,22 +5,29 @@ entry_points:
   main:
     parameters:
 
-      parameters [parameter1:
-        description: ## ADD DESCRIPTION
+      input_artifact:
+        description: Raw input .csv file
         type: string
 
-      parameter2]: parameter1:
-        description: ## ADD DESCRIPTION
+      output_artifact:
+        description: Cleaned input .csv file
         type: string
 
-      parameter2:
-        description: ## ADD DESCRIPTION
+      output_type:
+        description: Type of artifact for Weights & Biases
         type: string
 
-      parameter3:
-        description: ## ADD DESCRIPTION
+      output_description:
+        description: Description of artifact for Weights & Biases
         type: string
 
+      min_price:
+        description: Minimum price as outlier identifier
+        type: float
+
+      max_price:
+        description: Maximum price as outlier identifier
+        type: float
 
     command: >-
-        python run.py  --parameters [parameter1 {parameters [parameter1}  --parameter2]: parameter1 {parameter2]: parameter1}  --parameter2 {parameter2}  --parameter3 {parameter3} 
+        python run.py  --input_artifact {input_artifact}  --output_artifact {output_artifact}  --output_type {output_type}  --output_description {output_description}  --min_price {min_price}  --max_price {max_price} 
