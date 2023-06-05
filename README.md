@@ -6,6 +6,15 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 
 In this project you will build such a pipeline.
 
+# Details for review Udacity
+ 
+This project was done for the Udacity course Machine Learning Devops Engineer. This project is public via Github and Weights & Biases:
+
+* https://github.com/RuudVelo/build-ml-pipeline-for-short-term-rental-prices
+* https://wandb.ai/ruudvelo/nyc_airbnb
+
+Github contains all code and releases. Weights & Biases contain all produced artifacts. 
+
 ## Table of contents
 
 - [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
@@ -33,7 +42,7 @@ In this project you will build such a pipeline.
 
 ## Preliminary steps
 ### Fork the Starter kit
-Go to [https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git](https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git)
+Go to [https://github.com/RuudVelo/build-ml-pipeline-for-short-term-rental-prices.git](https://RuudVelo/build-ml-pipeline-for-short-term-rental-prices.git)
 and click on `Fork` in the upper right corner. This will create a fork in your Github account, i.e., a copy of the
 repository that is under your control. Now clone the repository locally so you can start working on it:
 
